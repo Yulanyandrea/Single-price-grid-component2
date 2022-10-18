@@ -67,6 +67,8 @@
     color: white;
     margin-top: 10%;
     margin-bottom: 5%;
+    height:40px; 
+    width: 270px;
    
 }
 
@@ -90,15 +92,80 @@
 }
 
 @media(min-width:1200px) {
+
     .container{
+        width: 100%; 
         display: flex;
-        flex-direction: row;
         flex-wrap:wrap;
+        margin: 2% 10% 2% 20%;
     }
 
-    .bottom{
-        display: flex;
-        flex-direction: row;
+    .botton{
+       width: 50%;
+       display: flex;
     }
+
+    .paragraph{
+        margin-right: 30%;
+    }
+
+    .square3{
+        flex-grow: 4;
+    }
+}
+
+@media(min-width:2000px) {
+
+    .container{
+        width: 100%; 
+        display: flex;
+        flex-direction: column; 
+        margin-top: 20%; 
+    }
+
+    .paragraph{
+        font-size: 20px;
+        width: 100%;
+        
+    }
+
+    .square2{
+        width: 50%;
+    }
+
+    .square2_h2{
+        font-size: 25px;
+    }
+
+    .number{
+        font-size: 20px;
+    }
+
+    .price{
+        font-size: 20px;
+    }
+
+    .text{
+        font-size: 20px;
+    }
+
+    #signUp{
+        height:60px; 
+        width: 270px;
+    }
+
+    .square3{
+        flex-grow: 0.2;
+        width: 50%;
+    }
+
+    .list{
+        font-size: 20px;
+        color: rgba(255, 255, 255, 58%);
+        
+    }
+
+   
+    
     
 }
