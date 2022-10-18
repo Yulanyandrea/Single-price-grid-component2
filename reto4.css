@@ -110,7 +110,13 @@
         margin-right: 30%;
     }
 
+    .square2{
+        width: 50%;
+        flex-grow: 4;
+    }
+
     .square3{
+        width: 50%;
         flex-grow: 4;
     }
 }
